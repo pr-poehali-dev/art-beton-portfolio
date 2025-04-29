@@ -1,6 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import { Award, Users, Clock, Tool } from 'lucide-react';
+import { Award, Users, Clock, Wrench } from 'lucide-react';
 
 const About = () => {
   return (
@@ -87,7 +87,7 @@ const About = () => {
             
             <div className="bg-white p-6 rounded-lg shadow-md text-center hover-scale">
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-primary text-white mb-4">
-                <Tool className="h-8 w-8" />
+                <Wrench className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Инновации</h3>
               <p className="text-gray-600">
